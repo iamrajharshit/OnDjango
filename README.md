@@ -73,3 +73,12 @@ OnDjango\manage.py runserver
 
 - Our Django page is running with `DEBUG=True`
 
+## Files inside Django project
+
+- **manage.py:** Its a root level.
+- **db.sqlite3:** Its a default database in Django.
+
+- **Project folder:** Here it's OnDjango as our project.
+    - **setting.py:** One of the main file. Contains config of django project.
+    contains details about *Base Dict*, *Secret key*, *Debugging*, *host* etc..
+    - **__init__.py:**
