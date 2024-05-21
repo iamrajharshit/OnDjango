@@ -55,6 +55,7 @@ django-admin startproject OnDjango
 - Later will use `startapp` for multiple `apps` in django.
 
 <img src="img\02_Project.png">
+
 We have our OnDjango project ready.
 - we have OnDjango a sub-folder inside main OnDjango folder, which is commond in Django projects.
 
@@ -64,9 +65,11 @@ run your `manage.py` using static command `runserver`.
 OnDjango\manage.py runserver
 ```
 <img src= "img\03_runserver.png">
+
 - Ignore the error for now.
 - Our server has started local `http://127.0.0.1:8000/`
 
 <img src="img\04_server.png">
+
 - Our Django page is running with `DEBUG=True`
 
