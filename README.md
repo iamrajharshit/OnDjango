@@ -25,7 +25,16 @@ uv venv  # Create a virtual environment at .venv.
 # On Windows.
 .venv\Scripts\activate
 ```
+#### To deactivate 
+```
+deactivate
+```
 #### To install packages into venv
 ```
 uv pip install -r requirements.txt  # Install from a requirements.txt file.
 ```
+#### Install Django
+```
+uv pip install Django
+```
+<img src="img\01_uv pip Django.png">
