@@ -81,4 +81,6 @@ OnDjango\manage.py runserver
 - **Project folder:** Here it's OnDjango as our project.
     - **setting.py:** One of the main file. Contains config of django project.
     contains details about *Base Dict*, *Secret key*, *Debugging*, *host* etc..
-    - **__init__.py:**
+    - **__init__.py:** constructor
+    - **urls.py:** routing file
+    - **views.py:** routing files -> controller file (business logic)
