@@ -18,14 +18,14 @@ Designed as a drop-in replacement for common `pip` and `pip-tools` workflows.
 pip install uv
 ```
 #### To create venv
-Create a virtual environment at `.venv` by:
+Create a virtual environment at `.venv` by `uv venv` on the terminal:
 ```
 uv venv 
 
 ```
 #### To activate venv
+On Windows:
 ```
-# On Windows.
 .venv\Scripts\activate
 ```
 #### To deactivate 
@@ -33,8 +33,9 @@ uv venv
 deactivate
 ```
 #### To install packages into venv
+Later to install packages from a requirements.txt file.
 ```
-uv pip install -r requirements.txt  # Install from a requirements.txt file.
+uv pip install -r requirements.txt  
 ```
 #### Install Django
 ```
