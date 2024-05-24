@@ -182,5 +182,12 @@ def contact(request):
 
 Under **TEMPLATES** section will mention under which *dirs* *templates* are present for use.
 ```
-'DIRS':['templates']
+'DIRS':['templates'],
 ```
+If still Error exsits like : `Error: TemplateDoesNotExist`
+Then `import os` and try this code, specifying the path:
+```
+'DIRS': [os.path.join(BASE_DIR,'templates')],
+```
+Output:
+<img src="img\08_fixed error.png">
