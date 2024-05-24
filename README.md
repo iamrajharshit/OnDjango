@@ -184,7 +184,7 @@ Under **TEMPLATES** section will mention under which ***DIRS*** ***templates*** 
 ```
 'DIRS':['templates'],
 ```
-If still Error exsits like : `Error: TemplateDoesNotExist`
+If still Error exsits like : `Error: TemplateDoesNotExist at/`
 Then `import os` and try this code, specifying the path:
 ```
 'DIRS': [os.path.join(BASE_DIR,'templates')],
