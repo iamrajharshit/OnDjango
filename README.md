@@ -180,7 +180,7 @@ def contact(request):
 
 - Will have to mention from where to load our *templates* under `setting.py` file.
 
-Under **TEMPLATES** section will mention under which *dirs* *templates* are present for use.
+Under **TEMPLATES** section will mention under which ***DIRS*** ***templates*** are present for use.
 ```
 'DIRS':['templates'],
 ```
