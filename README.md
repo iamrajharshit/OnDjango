@@ -90,6 +90,7 @@ OnDjango\manage.py runserver
 
 ### Diagram
 
+<img src="https://github.com/iamrajharshit/OnDjango/blob/main/img/00_Django-Work-flow.jpg">
 
 ### Working with views.py
 - views.py stores the logical part of the Django project.
