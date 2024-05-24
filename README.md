@@ -18,9 +18,9 @@ Designed as a drop-in replacement for common `pip` and `pip-tools` workflows.
 pip install uv
 ```
 #### To create venv
-
+Create a virtual environment at `.venv` by:
 ```
-uv venv  # Create a virtual environment at .venv.
+uv venv 
 
 ```
 #### To activate venv
