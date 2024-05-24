@@ -94,7 +94,7 @@ OnDjango\manage.py runserver
 
 ### Working with views.py
 - views.py stores the logical part of the Django project.
-- create [views.py](OnDjango\OnDjango\views.py) file inside sub-project folder level.
+- create [views.py](https://github.com/iamrajharshit/OnDjango/blob/main/OnDjango/OnDjango/views.py) file inside sub-project folder level.
 
 ```
 #Giving response 
