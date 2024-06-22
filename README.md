@@ -192,3 +192,53 @@ Then `import os` and try this code, specifying the path:
 ```
 Output:
 <img src="img\08_fixed error.png">
+
+### Static folder
+
+#### Adding CSS
+creating a file style.css
+<br>
+Inside index.html file, add:
+```
+<link rel="stylesheet" href="../../static/style.css">
+```
+Error:
+```
+[23/Jun/2024 00:25:01] "GET / HTTP/1.1" 200 243
+Not Found: /favicon.ico
+[23/Jun/2024 00:25:01] "GET /favicon.ico HTTP/1.1" 404 2349
+[23/Jun/2024 00:30:17] "GET / HTTP/1.1" 200 301
+[23/Jun/2024 00:30:17] "GET /static/style.css HTTP/1.1" 404 1786
+
+```
+
+**Templating Engine:** In Django html file itself work as a templating engine.
+- We can inject our code programatically, just like index.php 
+- we can inject data from views.py
+
+Correction:
+
+```
+<link rel="stylesheet" href="{%static 'style.css'%}">
+```
+
+**Error: Did you forget to register or load this tag?** 
+
+<br>
+
+Add `{% load static %}` at the top of the `index.html` file
+```
+{% load static %}
+
+```
+
+Inside setting.py:
+
+```
+STATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]
+```
+Output:
+<img src="img\09_added css.png">
+
+
+
