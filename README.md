@@ -18,14 +18,14 @@ Designed as a drop-in replacement for common `pip` and `pip-tools` workflows.
 pip install uv
 ```
 #### To create venv
-
+Create a virtual environment at `.venv` by `uv venv` on the terminal:
 ```
-uv venv  # Create a virtual environment at .venv.
+uv venv 
 
 ```
 #### To activate venv
+On Windows:
 ```
-# On Windows.
 .venv\Scripts\activate
 ```
 #### To deactivate 
@@ -33,8 +33,9 @@ uv venv  # Create a virtual environment at .venv.
 deactivate
 ```
 #### To install packages into venv
+Later to install packages from a requirements.txt file.
 ```
-uv pip install -r requirements.txt  # Install from a requirements.txt file.
+uv pip install -r requirements.txt  
 ```
 #### Install Django
 ```
@@ -94,7 +95,7 @@ OnDjango\manage.py runserver
 
 ### Working with views.py
 - views.py stores the logical part of the Django project.
-- create [views.py](OnDjango\OnDjango\views.py) file inside sub-project folder level.
+- create [views.py](https://github.com/iamrajharshit/OnDjango/blob/main/OnDjango/OnDjango/views.py) file inside sub-project folder level.
 
 ```
 #Giving response 
