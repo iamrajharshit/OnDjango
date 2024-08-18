@@ -241,5 +241,18 @@ STATICFILES_DIRS =[os.path.join(BASE_DIR,'static')]
 Output:
 <img src="img\09_added css.png">
 
+## Apps
+
+To create app: `manage.py startapp [app name]`
+<br>
+Under Setting.py add the created app
+
+How we handle app: we create views-> url handle and we serve at routes.
+<br>
+Templates can be inside the app as well. (with no extra settings)
+
+
+## Jinja
+The most popular template engine for Python projects and is used in projects like Flask, Django, and Ansible; it has recently gained popularity also for interaction with databases in combination with SQL, partly thanks to its use in popular tools such as dbt.
 
 
